@@ -5,18 +5,32 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
 import GoogleSignIn
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 
+>>>>>>> origin/master
 
 class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
     
  
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
+    var iconClick : Bool!
     override func viewDidLoad() {
         super.viewDidLoad()
         emailField.underlined()
         passwordField.underlined()
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        iconClick = true
+    
+        
+=======
+>>>>>>> Stashed changes
         
         GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
         GIDSignIn.sharedInstance().uiDelegate = self
@@ -24,6 +38,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
         
     
 
+>>>>>>> origin/master
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -42,8 +57,7 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
             } else if result?.isCancelled == true {
                 print("User cancelled Facebook Authentication")
             } else {
-                print("LUIS: Authentication successful")
-                
+    
                 // Gets credential from Access token from firebase
                 let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)    
                 self.firebaseAuth(credential)
@@ -80,6 +94,13 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
         }
     }
     
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    
+    @IBAction func googleButtontapped(_ sender: Any) {
+=======
+>>>>>>> Stashed changes
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if let error = error {
             print("error with Google Sign In \(error.localizedDescription)")
@@ -108,6 +129,30 @@ class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDeleg
     
     func completeSignIn() {
         performSegue(withIdentifier: "feed", sender: nil)
+>>>>>>> origin/master
         
     }
+    
+    
+    @IBAction func textSecured(_ sender: UIButton) {
+        if(iconClick == true) {
+            passwordField.isSecureTextEntry = false
+            iconClick = false
+            sender.isSelected = true
+            
+        } else {
+            passwordField.isSecureTextEntry = true
+            iconClick = true
+            sender.isSelected = false
+        }
+    }
+    
+    
+    func completeSignIn() {  performSegue(withIdentifier: "feed", sender: nil)  }
 }
+
+
+
+
+
+

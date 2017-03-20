@@ -76,6 +76,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+		DE1962DB1E80793D00C80DF0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEE089DA1E7B7B5E0007814F /* constants.swift */,
+				DE1B53251E79AD7D000F01BA /* Helper extensions.swift */,
+				DE1B53271E79B269000F01BA /* customField.swift */,
+			);
+			name = Helpers;
+=======
+>>>>>>> Stashed changes
 		33E6C6851E7EFAE6003F4A50 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,10 @@
 				33E6C6881E7EFC91003F4A50 /* SwiftyGradient.swift */,
 			);
 			name = Views;
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 		DE1B52EE1E790D6B000F01BA = {
@@ -106,17 +123,21 @@
 		DE1B52F91E790D6C000F01BA /* weWrk_1 */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+				DE1962DB1E80793D00C80DF0 /* Helpers */,
+=======
+>>>>>>> Stashed changes
 				33E6C6851E7EFAE6003F4A50 /* Views */,
 				DEE089D91E7B6A960007814F /* weWrk_1.entitlements */,
+>>>>>>> origin/master
 				DE1B53111E790EF9000F01BA /* ViewControllers */,
 				DE1B53121E790F13000F01BA /* Models */,
 				DE1B53131E790F2E000F01BA /* Delegate */,
 				DE1B53001E790D6C000F01BA /* Main.storyboard */,
 				DE1B53141E7920EA000F01BA /* Assets */,
 				DE1B530E1E790EA0000F01BA /* Plist */,
-				DE1B53251E79AD7D000F01BA /* Helper extensions.swift */,
-				DE1B53271E79B269000F01BA /* customField.swift */,
-				DEE089DA1E7B7B5E0007814F /* constants.swift */,
 			);
 			path = weWrk_1;
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 		DE1B530E1E790EA0000F01BA /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				DEE089D91E7B6A960007814F /* weWrk_1.entitlements */,
 				DE1B53051E790D6C000F01BA /* LaunchScreen.storyboard */,
 				DE1B53081E790D6C000F01BA /* Info.plist */,
 				DEE089D71E7B56E00007814F /* GoogleService-Info.plist */,
