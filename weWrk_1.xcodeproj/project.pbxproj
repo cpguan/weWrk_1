@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		33E6C6871E7EFB2A003F4A50 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6C6861E7EFB2A003F4A50 /* CategoryCell.swift */; };
 		33E6C6891E7EFC91003F4A50 /* SwiftyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6C6881E7EFC91003F4A50 /* SwiftyGradient.swift */; };
+		3B376F431E89C2BD000B302D /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B376F421E89C2BD000B302D /* userProfileViewController.swift */; };
+		79319E01D95C47405DBAD4B7 /* Pods_weWrk_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */; };
 		DE1B52FB1E790D6C000F01BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */; };
 		DE1B53021E790D6C000F01BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53001E790D6C000F01BA /* Main.storyboard */; };
 		DE1B53041E790D6C000F01BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53031E790D6C000F01BA /* Assets.xcassets */; };
@@ -21,7 +23,6 @@
 		DEE089D81E7B56E00007814F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEE089D71E7B56E00007814F /* GoogleService-Info.plist */; };
 		DEE089DB1E7B7B5E0007814F /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE089DA1E7B7B5E0007814F /* constants.swift */; };
 		DEE089DD1E7B88870007814F /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE089DC1E7B88870007814F /* feedViewController.swift */; };
-		F35B946F241DE92E9E794B9D /* Pods_weWrk_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0FF0DC01750002144E15161F /* Pods-weWrk_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk_1.release.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1.release.xcconfig"; sourceTree = "<group>"; };
 		33E6C6861E7EFB2A003F4A50 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		33E6C6881E7EFC91003F4A50 /* SwiftyGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGradient.swift; sourceTree = "<group>"; };
+		3B376F421E89C2BD000B302D /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
 		CD7E00698685A9286E9C03EF /* Pods-weWrk_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk_1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B52F71E790D6C000F01BA /* weWrk_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weWrk_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = weWrk_1/AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35B946F241DE92E9E794B9D /* Pods_weWrk_1.framework in Frameworks */,
+				79319E01D95C47405DBAD4B7 /* Pods_weWrk_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,7 @@
 				DE1B530F1E790EDC000F01BA /* LoginViewController.swift */,
 				DE1B531F1E798624000F01BA /* SignupViewController.swift */,
 				DEE089DC1E7B88870007814F /* feedViewController.swift */,
+				3B376F421E89C2BD000B302D /* userProfileViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				DE1B53281E79B269000F01BA /* customField.swift in Sources */,
 				DE1B53261E79AD7D000F01BA /* Helper extensions.swift in Sources */,
 				DEE089DB1E7B7B5E0007814F /* constants.swift in Sources */,
+				3B376F431E89C2BD000B302D /* userProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
