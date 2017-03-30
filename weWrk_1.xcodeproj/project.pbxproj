@@ -10,6 +10,8 @@
 		33E6C6871E7EFB2A003F4A50 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6C6861E7EFB2A003F4A50 /* CategoryCell.swift */; };
 		33E6C6891E7EFC91003F4A50 /* SwiftyGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6C6881E7EFC91003F4A50 /* SwiftyGradient.swift */; };
 		3B376F431E89C2BD000B302D /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B376F421E89C2BD000B302D /* userProfileViewController.swift */; };
+		3BD0ED921E8B224D003127B1 /* viewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0ED911E8B224D003127B1 /* viewPlaceViewController.swift */; };
+		3BD0ED941E8B2285003127B1 /* jobProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0ED931E8B2285003127B1 /* jobProfileViewController.swift */; };
 		79319E01D95C47405DBAD4B7 /* Pods_weWrk_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */; };
 		DE1B52FB1E790D6C000F01BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */; };
 		DE1B53021E790D6C000F01BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53001E790D6C000F01BA /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		33E6C6861E7EFB2A003F4A50 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		33E6C6881E7EFC91003F4A50 /* SwiftyGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGradient.swift; sourceTree = "<group>"; };
 		3B376F421E89C2BD000B302D /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		3BD0ED911E8B224D003127B1 /* viewPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewPlaceViewController.swift; sourceTree = "<group>"; };
+		3BD0ED931E8B2285003127B1 /* jobProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jobProfileViewController.swift; sourceTree = "<group>"; };
 		CD7E00698685A9286E9C03EF /* Pods-weWrk_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk_1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B52F71E790D6C000F01BA /* weWrk_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weWrk_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = weWrk_1/AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 				DE1B531F1E798624000F01BA /* SignupViewController.swift */,
 				DEE089DC1E7B88870007814F /* feedViewController.swift */,
 				3B376F421E89C2BD000B302D /* userProfileViewController.swift */,
+				3BD0ED911E8B224D003127B1 /* viewPlaceViewController.swift */,
+				3BD0ED931E8B2285003127B1 /* jobProfileViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -303,7 +309,9 @@
 			files = (
 				DE1B53101E790EDC000F01BA /* LoginViewController.swift in Sources */,
 				33E6C6891E7EFC91003F4A50 /* SwiftyGradient.swift in Sources */,
+				3BD0ED921E8B224D003127B1 /* viewPlaceViewController.swift in Sources */,
 				DEE089DD1E7B88870007814F /* feedViewController.swift in Sources */,
+				3BD0ED941E8B2285003127B1 /* jobProfileViewController.swift in Sources */,
 				DE1B53201E798624000F01BA /* SignupViewController.swift in Sources */,
 				33E6C6871E7EFB2A003F4A50 /* CategoryCell.swift in Sources */,
 				DE1B52FB1E790D6C000F01BA /* AppDelegate.swift in Sources */,

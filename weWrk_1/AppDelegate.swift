@@ -30,6 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         })
         
+        let vc1 = UIViewController()
+        let vc2 = UIViewController()
+        let userProfile = userProfileViewController(nibName: "userProfileViewController", bundle: nil)
+        userProfile.profileViewController = vc1
+        userProfile.viewPlaceViewController = vc2
             
         return true
     }

@@ -247,6 +247,9 @@
                                         <state key="normal" title="PROFILE">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="profileButtonPress:" destination="y7M-1f-YnJ" eventType="touchUpInside" id="OgW-Lg-cOx"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="QOM-nt-1oN">
                                         <rect key="frame" x="77" y="247" width="30" height="30"/>
@@ -258,6 +261,9 @@
                                         <state key="normal" title="PLACES">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="placeButtonPress:" destination="y7M-1f-YnJ" eventType="touchUpInside" id="RNG-qU-H64"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="place" translatesAutoresizingMaskIntoConstraints="NO" id="A0B-A9-Yuj">
                                         <rect key="frame" x="274" y="247" width="30" height="30"/>
@@ -284,7 +290,7 @@
                                 <rect key="frame" x="0.0" y="303" width="375" height="315"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="AYF-DA-Pcm" kind="embed" id="yfU-pc-wYw"/>
+                                    <segue destination="AYF-DA-Pcm" kind="embed" identifier="toViewPlace" id="yfU-pc-wYw"/>
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FLk-Wd-QIc">
@@ -329,6 +335,8 @@
                         <inset key="imageInsets" minX="1" minY="3" maxX="1" maxY="0.0"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="containverView" destination="cdw-2p-OGm" id="vq9-cQ-DMV"/>
+                        <outlet property="userImageView" destination="eJx-fe-hWw" id="H5R-Z2-QVD"/>
                         <outlet property="userNameLabel" destination="hhS-XA-41x" id="ruS-F0-hso"/>
                     </connections>
                 </viewController>
@@ -444,10 +452,10 @@
             </objects>
             <point key="canvasLocation" x="1089" y="-31"/>
         </scene>
-        <!--View Controller-->
+        <!--View Place View Controller-->
         <scene sceneID="v9X-XY-taT">
             <objects>
-                <viewController id="AYF-DA-Pcm" sceneMemberID="viewController">
+                <viewController id="AYF-DA-Pcm" customClass="viewPlaceViewController" customModule="weWrk_1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5B5-tm-PeW"/>
                         <viewControllerLayoutGuide type="bottom" id="Slg-Y1-NNw"/>
@@ -514,10 +522,10 @@
             </objects>
             <point key="canvasLocation" x="2464.8000000000002" y="853.22338830584715"/>
         </scene>
-        <!--View Controller-->
+        <!--Job Profile View Controller-->
         <scene sceneID="lh8-P3-RWd">
             <objects>
-                <viewController id="yva-BR-oEd" sceneMemberID="viewController">
+                <viewController id="yva-BR-oEd" customClass="jobProfileViewController" customModule="weWrk_1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mVu-Qw-fIx"/>
                         <viewControllerLayoutGuide type="bottom" id="Lwb-vY-NRB"/>
