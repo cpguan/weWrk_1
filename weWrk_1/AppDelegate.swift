@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
-        // Persistant ligin
+        // Persistent login
         let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
         let tab = mainStoryBoard.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
         let login = mainStoryBoard.instantiateViewController(withIdentifier: "login") as! LoginViewController
-      // Persistant ligin
+      // Persistent login
         FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
             if user != nil {
                 // User is signed in.
@@ -46,10 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                      annotation: [:])
     }
     
-    
-    
-    
-
+   
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         return FBSDKApplicationDelegate.sharedInstance().application(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
     } 

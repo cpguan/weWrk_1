@@ -28,9 +28,19 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
+<<<<<<< Updated upstream
 			<array>
 				<string>com.googleusercontent.apps.842173515554-j8mftor1sd20lflaijiv16fv9l8i83kl</string>
 			</array>
+=======
+<<<<<<< HEAD
+			<array/>
+=======
+			<array>
+				<string>com.googleusercontent.apps.842173515554-j8mftor1sd20lflaijiv16fv9l8i83kl</string>
+			</array>
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
